@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+html, body, .wrapper{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: crimson;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.plano1{
+    background-color: aliceblue;
+    padding: 20px;
+    text-align: center;
+    border-radius: 50px;
+    width: 400px;
+    margin-bottom: -50px;
+}
+
+.plano1 > h1{
+    font-size: 40px;
+    color: gray;
+    cursor: default;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.plano1 > h2{
+    font-size: 80px;
+    cursor: default;
+    margin-top: -50px;
+}
+
+.plano1 > h4{
+    margin-right: 20%;
+    font-size: 20px;
+    color: gray;
+}
+
+.plano1 > p{
+    font-size: 23px;
+    color: gray;
+    cursor: default;
+    margin-top: -80px;
+    margin-left: 20%;
+}
+
+.plano1 > h3{
+    text-align: left;
+    cursor: default;
+    margin-left: 30px;
+    font-weight: 550;
+    
+}
+
+.naoter{
+    text-align: left;
+    cursor: default;
+    text-decoration: line-through;
+    margin-left: 30px;
+}
+
+.naoter > h3{
+    font-weight: 550;
+}
+
+.plano1 > button{
+    font-size: 20px;
+    background-color:  crimson;
+    border-radius: 13px;
+    cursor: pointer;
+    color: white;
+    margin-top: 35px;
+    margin-bottom: 25px;
+    padding: 13px;
+    width: 60%;
+    border: none;
+}
+
+.plano1 > button:hover{
+    background-color: rgb(197, 17, 53);
+}
+
+
+.plano2{
+    background-color: aliceblue;
+    padding: 20px;
+    text-align: center;
+    border-radius: 50px;
+    margin-left: 50px;
+    width: 400px;
+    margin-bottom: -50px;
+}
+
+.plano2 > h1{
+    font-size: 40px;
+    color: gray;
+    cursor: default;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.plano2 > h2{
+    font-size: 80px;
+    cursor: default;
+    margin-top: 50px;
+}
+
+.plano2 > h4{
+    margin-right: 20%;
+    font-size: 20px;
+    color: gray;
+    margin-bottom: -70px;
+}
+
+.plano2 > p{
+    font-size: 23px;
+    color: gray;
+    cursor: default;
+    margin-top: -80px;
+    margin-left: 20%;
+}
+
+.plano2 > h3{
+    text-align: left;
+    cursor: default;
+    margin-left: 30px;
+    font-weight: 550;
+}
+
+.plano2 > button{
+    font-size: 20px;
+    background-color:  crimson;
+    border-radius: 13px;
+    cursor: pointer;
+    color: white;
+    margin-top: 35px;
+    margin-bottom: 25px;
+    padding: 13px;
+    width: 60%;
+    border: none;
+}
+
+.plano2 > button:hover{
+    background-color: rgb(197, 17, 53);
+}
